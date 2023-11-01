@@ -1,0 +1,11 @@
+{% extends 'starshop/basic.html'%}
+
+{%load static%}
+{% block content%}
+
+  <form action="{% url 'star_create' %}" method="post">
+    {% csrf_token %}
+    {{ form.as_ul }}
+    <input type="submit" value="Done?">
+  </form>        
+           {%endblock%}

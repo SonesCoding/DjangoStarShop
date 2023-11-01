@@ -1,0 +1,60 @@
+
+  
+ /*********************************************/
+  .jumbotron{
+    background-color: #d9cd6e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    color:#7c3895;
+    
+}
+ /*********************************************/
+
+  /*********************************************/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4c3255;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #9f7a1c;
+}
+
+li a {
+  display: block;
+  color: rgb(222, 174, 93);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #34153d8d;
+}
+
+
+nav ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+footer ul{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+ /*********************************************/
+
+ body{
+  background-color:rgb(97, 68, 151);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #d5d585;
+  
+}
